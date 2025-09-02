@@ -28,16 +28,16 @@ export default function Teaching() {
     <section className="py-20 px-4 bg-white">
       <div className="container mx-auto max-w-6xl">
         {/* Title */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-24">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-8">
             Teaching with Purpose
           </h2>
         </div>
 
         {/* Main Content */}
-        <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center mb-20">
+        <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center mb-32">
           <div>
-            <div className="space-y-6 text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+            <div className="space-y-6 text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
               <p>
                 <strong className="text-black">Hi, I&apos;m Youness —</strong><br />
                 I turn curiosity into real coding power. I&apos;ve taught over 3 years, helping kids build their first game, website and script
@@ -66,21 +66,24 @@ export default function Teaching() {
         </div>
 
         {/* Features */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid md:grid-cols-3 gap-8 mb-32">
           {features.map((feature, index) => (
-            <div key={index} className="text-left">
-              <div className="mb-4">
-                {feature.icon}
+            <div key={index} className="text-left max-w-64">
+              <div className="flex items-start space-x-4 mb-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full border-2 border-black flex items-center justify-center">
+                  {feature.icon}
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold mb-1">
+                    {feature.title}
+                  </h3>
+                  <h4 className="text-xl md:text-2xl font-bold text-gray-600">
+                    {feature.subtitle}
+                  </h4>
+                </div>
               </div>
 
-              <h3 className="text-xl md:text-2xl font-bold mb-1">
-                {feature.title}
-              </h3>
-              <h4 className="text-xl md:text-2xl font-bold text-gray-600 mb-4">
-                {feature.subtitle}
-              </h4>
-
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 {feature.description}
               </p>
             </div>
