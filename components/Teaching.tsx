@@ -39,14 +39,23 @@ export default function Teaching() {
           <div>
             <div className="space-y-6 text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
               <p>
-                <strong className="text-black">Hi, I&apos;m Youness —</strong><br />
-                I turn curiosity into real coding power. I&apos;ve taught over 3 years, helping kids build their first game, website and script
+                <strong className="text-black text-2xl md:text-3xl">Hi, I&apos;m Youness —</strong> a programming teacher with years of experience helping students unlock their creativity through code.
+              </p>
+              <p>
+                I believe coding isn&apos;t just about syntax; it&apos;s about building confidence, solving problems, and creating projects that matter.
               </p>
             </div>
 
-            <Button className="bg-brand-green hover:bg-brand-green/90 text-black font-bold text-lg px-8 py-4 rounded-lg">
-              Start With a Free 30-Minute Call
-            </Button>
+            <div className="flex flex-col sm:flex-row items-start gap-6 mb-8">
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">🎓</span>
+                <span className="font-bold text-black">100+ students taught</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">🏫</span>
+                <span className="font-bold text-black">Trusted by schools in Agadir</span>
+              </div>
+            </div>
           </div>
 
           <div className="flex justify-center">

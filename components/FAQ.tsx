@@ -8,24 +8,20 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What age group are your courses designed for?",
-      answer: "Our courses are designed for students aged 8-18, with content adapted to different skill levels. We offer beginner-friendly introductions for younger students and more advanced programming concepts for teenagers. Each lesson is personalized based on the student's age, experience, and learning style."
+      question: "What age group are your lessons for?",
+      answer: "We teach kids, teens, and beginners of all ages."
     },
     {
-      question: "What age group are your courses designed for?",
-      answer: "Our courses are designed for students aged 8-18, with content adapted to different skill levels. We offer beginner-friendly introductions for younger students and more advanced programming concepts for teenagers. Each lesson is personalized based on the student's age, experience, and learning style."
+      question: "Do I need prior coding experience?",
+      answer: "Not at all — we start from the basics."
     },
     {
-      question: "What age group are your courses designed for?",
-      answer: "Our courses are designed for students aged 8-18, with content adapted to different skill levels. We offer beginner-friendly introductions for younger students and more advanced programming concepts for teenagers. Each lesson is personalized based on the student's age, experience, and learning style."
+      question: "How do online lessons work?",
+      answer: "Live via Zoom or Google Meet with interactive coding tools."
     },
     {
-      question: "What age group are your courses designed for?",
-      answer: "Our courses are designed for students aged 8-18, with content adapted to different skill levels. We offer beginner-friendly introductions for younger students and more advanced programming concepts for teenagers. Each lesson is personalized based on the student's age, experience, and learning style."
-    },
-    {
-      question: "What age group are your courses designed for?",
-      answer: "Our courses are designed for students aged 8-18, with content adapted to different skill levels. We offer beginner-friendly introductions for younger students and more advanced programming concepts for teenagers. Each lesson is personalized based on the student's age, experience, and learning style."
+      question: "What if my child struggles to keep up?",
+      answer: "We adjust the pace and provide extra support."
     }
   ]
 

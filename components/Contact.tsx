@@ -52,8 +52,17 @@ export default function Contact() {
         {/* Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black">
-            Get in touch
+            Get in Touch
           </h2>
+          <p className="text-xl md:text-2xl font-bold text-black mt-4">
+            Let&apos;s build something together.
+          </p>
+          <p className="text-lg text-black/80 mt-2">
+            Fill out the form and I&apos;ll reach back within 24 hours.
+          </p>
+          <p className="text-sm text-black/70 mt-4 flex items-center justify-center gap-2">
+            📧 <em>We reply directly to your email — no bots, just us.</em>
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-start">
@@ -117,9 +126,9 @@ export default function Contact() {
               
               <button 
                 type="submit"
-                className="w-full bg-black text-brand-yellow py-4 text-xl md:text-2xl font-bold hover:bg-black/90 transition-colors"
+                className="w-full bg-black text-brand-yellow py-4 text-xl md:text-2xl font-bold hover:bg-black/90 transition-colors flex items-center justify-center gap-2"
               >
-                Send message
+                👉 Send Message
               </button>
             </form>
           </div>

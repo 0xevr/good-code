@@ -10,46 +10,42 @@ export default function Pricing() {
 
   const plans = [
     {
-      name: "Starter",
-      subtitle: "Self-Learning kit",
-      price: isStudent ? "Free" : "$20",
-      description: "Essential resources to begin your coding journey",
+      name: "Self-Learning Kit",
+      subtitle: "",
+      price: "Free | $20/month",
+      description: "Perfect for independent learners who want to explore at their own pace.",
       features: [
-        "Free learning resources",
-        "Self-paced learning",
-        "Community access",
-        "Basic project templates"
+        "💻 Interactive exercises",
+        "📚 Project-based resources"
       ],
       isPopular: false,
       buttonText: "Start Free"
     },
     {
       name: "Guided Program",
-      subtitle: "Build with Me",
-      price: isStudent ? "Free" : "$50",
-      description: "Personalized guidance with live sessions",
+      subtitle: "Most Popular",
+      price: "$50/month",
+      description: "Structured, live sessions with personalized feedback.",
       features: [
-        "Live personalized sessions",
-        "Curriculum-based projects",
-        "Progress tracking",
-        "Direct feedback"
+        "👨‍🏫 1-on-1 mentorship",
+        "✅ Custom learning roadmap",
+        "🎯 Build real-world projects"
       ],
-      isPopular: false,
+      isPopular: true,
       buttonText: "Get Started"
     },
     {
-      name: "Mentorship",
-      subtitle: "Plus",
-      price: isStudent ? "Free" : "$100",
-      description: "Complete learning experience with community",
+      name: "Membership Plus",
+      subtitle: "",
+      price: "$80/month",
+      description: "For learners who want ongoing support and community.",
       features: [
-        "Monthly coaching calls",
-        "Private learning community",
-        "Priority project reviews",
-        "All previous perks"
+        "🌍 Join our coding community",
+        "🔁 Weekly challenges",
+        "🚀 Continuous skill growth"
       ],
-      isPopular: true,
-      buttonText: "Join Now"
+      isPopular: false,
+      buttonText: "Join Community"
     }
   ]
 
@@ -57,32 +53,9 @@ export default function Pricing() {
     <section className="py-20 px-4 bg-brand-yellow">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            Choose your path
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-black">
+            Choose Your Path
           </h2>
-          
-          <div className="inline-flex items-center bg-black/10 rounded-full p-1">
-            <button
-              onClick={() => setIsStudent(true)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                isStudent 
-                  ? 'bg-black text-brand-yellow' 
-                  : 'text-black hover:bg-black/5'
-              }`}
-            >
-              I am a student
-            </button>
-            <button
-              onClick={() => setIsStudent(false)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                !isStudent 
-                  ? 'bg-black text-brand-yellow' 
-                  : 'text-black hover:bg-black/5'
-              }`}
-            >
-              I am a parent
-            </button>
-          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
