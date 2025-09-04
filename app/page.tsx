@@ -1,23 +1,23 @@
 import Hero from '@/components/Hero'
 import Teaching from '@/components/Teaching'
-import Pricing from '@/components/Pricing'
-import HowItWorks from '@/components/HowItWorks'
-import Showcase from '@/components/Showcase'
+import TestimonialsCarousel from '@/components/TestimonialsCarousel'
+import InteractivePricing from '@/components/InteractivePricing'
 import FAQ from '@/components/FAQ'
-import Contact from '@/components/Contact'
+import SmartContactForm from '@/components/SmartContactForm'
 import Footer from '@/components/Footer'
+import SocialProofNotifications from '@/components/SocialProofNotifications'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
       <Hero />
       <Teaching />
-      <Pricing />
-      <HowItWorks />
-      <Showcase />
+      <TestimonialsCarousel />
+      <InteractivePricing />
       <FAQ />
-      <Contact />
+      <SmartContactForm />
       <Footer />
+      <SocialProofNotifications />
     </main>
   )
 }

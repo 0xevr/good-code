@@ -34,18 +34,42 @@ const config: Config = {
         'chart-4': 'hsl(var(--chart-4))',
         'chart-5': 'hsl(var(--chart-5))',
         brand: {
-          black: '#111111',
-          yellow: '#FFD84D',
-          green: '#00FF85',
-          'yellow-light': '#FFF4CC',
-          'green-light': '#E6FFF4',
+          // Dark bases
+          black: '#0A0F1C',
+          'navy': '#1B2436',
+          'slate': '#2A3441',
+          
+          // Primary colors
+          blue: '#3B82F6',
+          'blue-light': '#60A5FA',
+          'blue-dark': '#1E40AF',
+          
+          // Accent colors
+          cyan: '#06B6D4',
+          'cyan-light': '#22D3EE',
+          purple: '#8B5CF6',
+          
+          // Success/warning
+          emerald: '#10B981',
+          orange: '#F59E0B',
+          
+          // Neutral grays
           'gray-50': '#F8FAFC',
           'gray-100': '#F1F5F9',
           'gray-200': '#E2E8F0',
+          'gray-300': '#CBD5E1',
+          'gray-400': '#94A3B8',
+          'gray-500': '#64748B',
           'gray-600': '#475569',
           'gray-700': '#334155',
           'gray-800': '#1E293B',
           'gray-900': '#0F172A',
+          
+          // Light variations for backgrounds
+          'blue-50': '#EFF6FF',
+          'cyan-50': '#ECFEFF',
+          'purple-50': '#FAF5FF',
+          'emerald-50': '#ECFDF5',
         }
       },
       borderRadius: {
